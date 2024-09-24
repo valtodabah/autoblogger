@@ -19,7 +19,7 @@ const App = () => {
             <div className="container">
                 <MainContent currentLanguage={language} />
             </div>
-            <Footer />
+            <Footer currentLanguage={language} />
         </div>
     );
 };

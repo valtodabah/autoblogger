@@ -17,7 +17,7 @@ export function MainContent({ currentLanguage }) {
 
         setLoading(true); // Set loading to true when request is sent
 
-        const url = `http://localhost:5000/generate-article`;
+        const url = `https://autoblogger-4q8e.onrender.com/generate-article`;
         const options = {
             method: "POST",
             data: JSON.stringify({
